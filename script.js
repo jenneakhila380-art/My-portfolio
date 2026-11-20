@@ -36,3 +36,13 @@ function typeEffect() {
 }
 
 typeEffect();
+function copyEmail() {
+    const email ="jenneakhila380@gmailcom";
+    navigator.clipboard.writeText(email).then(() => {
+        alert("Email adress copied successfully");
+
+    })
+    .catch(()=>{
+        alert("unable to copy email address");
+    })
+}

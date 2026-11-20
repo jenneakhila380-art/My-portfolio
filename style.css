@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #080808;
+    background: black;
     color: white;
     font-family: Arial, sans-serif;
 }
@@ -16,17 +16,17 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
-    display: flex;
+    padding: 20px;
+    display:flex;
     justify-content: space-between;
     align-items: center;
-    background: #080808;
+    background:black;
     z-index: 100;
 }
 
 .logo {
-    color: #00ffff;
-    font-size: 28px;
+    color: rgb(0, 255, 255);
+    font-size: 30px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -40,11 +40,12 @@ nav a {
 }
 
 nav a:hover {
-    color: #00ffff;
+    color: rgb(0, 255, 255);
     text-shadow: 0 0 15px #00ffff;
+    
 }
 
-/* Common Sections */
+
 section {
     min-height: 100vh;
     padding: 100px 10%;
@@ -67,7 +68,7 @@ h2 span {
     color: #00ffff;
 }
 
-/* Home */
+
 .home-content h1 {
     font-size: 55px;
     color: #00ffff;
@@ -88,7 +89,6 @@ h2 span {
     color: #00ffff;
 }
 
-/* Button */
 .btn {
     display: inline-block;
     padding: 12px 30px;
@@ -107,14 +107,13 @@ h2 span {
     box-shadow: 0 0 30px #00ffff;
 }
 
-/* About */
+
 .about p {
     max-width: 700px;
     line-height: 2;
     font-size: 18px;
 }
 
-/* Skills */
 .skill-container {
     display: flex;
     justify-content: center;
@@ -135,4 +134,7 @@ h2 span {
     background: #00ffff;
     color: black;
 }
+
+
+
 
