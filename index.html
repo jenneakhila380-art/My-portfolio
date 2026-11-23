@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    
-    <header>
+    <canvas id="particles"></canvas>
+ 
+     <header>
         <a href="#" class="logo">Akhila Jenne</a>
 
         <nav>
@@ -33,7 +33,10 @@
                 and creating beautiful digital experiences.
             </p>
 
-            <a href="#about" class="btn">Explore More</a>
+            <a href="Akhila-Resume.pdf" download class="btn">
+                <i class="fa-solid fa-download"></i>
+                Download Resume
+            </a>
             <a href="#contact" class="btn">Get in touch</a>
         </div>
     </section>
@@ -61,7 +64,45 @@
             <div class="skill">Python</div>
         </div>
     </section>
+
    
+    <section class="projects" id="projects">
+        <h2>My <span>Projects</span></h2>
+
+        <div class="project-box">
+            <h3>Personal Portfolio</h3>
+            <p>A modern animated portfolio website using HTML, CSS and JavaScript.</p>
+        </div>
+
+        <div class="project-box">
+            <h3>Creative Web Design</h3>
+            <p>A creative and responsive web design project.</p>
+        </div>
+    </section>
+
+    
+    <section class="contact" id="contact">
+        <h2>Contact <span>Me</span></h2>
+
+        <p>Let's connect and create something amazing!</p>
+
+    <div class="email-box">
+        <span id="email">jenneakhila380@gmail.com</span>
+        <button class="copy-btn" onclick="copyEmail()">
+            <i class="fa-regular fa-copy"></i>
+            Copy Email
+        </button>
+    </div>
+     <p id="copy-message"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Akhila Jenne | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
     <script src="script.js"></script>
 </body>
 </html>  
